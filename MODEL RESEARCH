@@ -1,0 +1,28 @@
+MODEL RESEARCH
+
+The objective of this model research is to identify the most suitable Artificial Intelligence (AI) and Machine Learning (ML) models for developing the AI-Assisted Threat Detection Dashboard. Various cybersecurity notebooks, research papers, and technical resources were studied to understand the performance and suitability of different models for detecting cyber threats.
+
+The models were compared based on their learning type, use case, accuracy, prediction capability, and evaluation metrics such as Accuracy, Precision, Recall, F1-Score, and ROC-AUC.
+
+During the research, Isolation Forest, Random Forest, XGBoost, Decision Tree, Logistic Regression, One-Class SVM, Local Outlier Factor, and Neural Networks were analyzed for cybersecurity applications such as anomaly detection, intrusion detection, attack classification, and risk prediction.
+
+After comparing these models, Isolation Forest, Random Forest, XGBoost, and Decision Tree were selected because they provide reliable performance and are widely used in cybersecurity systems.
+
+SELECTED MODELS BASED ON RESEARCH
+
+Model	Purpose	Reason for Selection
+Isolation Forest	Detect anomalous network activities	Effective for anomaly detection without labeled data
+Random Forest	Classify cyber threats	High accuracy and reduces overfitting
+XGBoost	Predict threat severity and classify attacks	Excellent prediction performance and high accuracy
+Decision Tree	Classify attack types	Simple, fast, and easy to interpret
+
+WHY THESE MODELS WERE CHOSEN
+
+Isolation Forest was selected because it efficiently detects abnormal network behavior and unknown attacks.
+Random Forest was chosen due to its high accuracy and reliable threat classification.
+XGBoost was selected because it provides excellent predictive performance and helps prioritize security incidents.
+Decision Tree was included because it is easy to understand, fast to train, and effective for attack classification.
+
+CONCLUSION
+
+Based on the model research, Isolation Forest, Random Forest, XGBoost, and Decision Tree were identified as the most suitable machine learning models for the AI-Assisted Threat Detection Dashboard. These models provide effective anomaly detection, attack classification, and threat prediction, making them well suited for improving cybersecurity monitoring and incident response.
